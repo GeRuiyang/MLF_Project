@@ -22,7 +22,9 @@ What's more, the count of some import and export transaction data is missing whe
 
 First, let's focus on the data. In the dataset, we are able to obtain the amount and count of the import and export transactions. It is worth noting that the transaction data has two time indexes "COHORT_MONTH" and "IMAGE_DT", where each "COHORT_MONTH" is June 30 of a certain year which further contains the transaction information of the company in the past 12 months, and under each "COHORT_MONTH" records whether the company defaults or not (e.g. 0 or 1). On June 30th of every month, we need to predict whether the company will default or not based on data from the previous 12 months.
 
-图片1
+<div align='center'>
+    <img src='https://github.com/GeRuiyang/MLF_Project/edit/main/Project/pics/0data' width='650'/>
+</div>  
 
 ### 1. Handling of outliers and missing values
 * The values in the count column of the transaction data will appear negative, and after verification, these negative values appear on the date that no transaction occurred, so we change them to 0. 
