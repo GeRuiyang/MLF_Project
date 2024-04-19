@@ -48,7 +48,7 @@ First, let's focus on the data. In the dataset, we are able to obtain the amount
 </div>  
 
 <div align='center'>
-    <img src='pics/2merge.png' width='650'/>
+    <img src='pics/+2merge.png' width='650'/>
 </div>  
 
 ### 2. Time weighting: ewm
@@ -103,7 +103,7 @@ Considering the limitations of the features of the original data,  for all IMAGE
 In this part, we use logistic regression, SVM, decision tree, random forest to build models and train.
 
 <div align='center'>
-    <img src='pics/+4com1.png' width='650'/>
+    <img src='pics/+4com1recall.png' width='650'/>
 </div>  
 
 <div align='center'>
@@ -114,6 +114,10 @@ In this part, we use logistic regression, SVM, decision tree, random forest to b
 
 <div align='center'>
     <img src='pics/4loss.png' width='650'/>
+</div>  
+
+<div align='center'>
+    <img src='pics/4LSTM.png' width='650'/>
 </div>  
 
 ## Limitation of our models and improvements
