@@ -80,7 +80,7 @@ Considering the limitations of the features of the original data,  for all IMAGE
 </div>  
 
 <div align='center'>
-    <img src='pics/2kernel.png' width='650'/>
+    <img src='pics/2kernel.png' width='450'/>
 </div>  
 
 * In addition, we have done correlation analysis and made heat maps.
