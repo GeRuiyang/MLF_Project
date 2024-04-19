@@ -36,12 +36,17 @@ First, let's focus on the data. In the dataset, we are able to obtain the amount
 </div>  
 
 ### 1. Handling of outliers and missing values
+
 * The values in the count column of the transaction data will appear negative, and after verification, these negative values appear on the date that no transaction occurred, so we change them to 0.
 
 * Another problem of the dataset is that, the count of some import and export transaction data is missing where there is transaction amount in the corresponding position, we change the corresponding count to 1.
 
 <div align='center'>
     <img src='pics/1negative.png' width='650'/>
+</div>  
+
+<div align='center'>
+    <img src='pics/2merge.png' width='650'/>
 </div>  
 
 ### 2. Time weighting: ewm
@@ -59,6 +64,10 @@ The transaction data has two time indexes "COHORT_MONTH" and "IMAGE_DT", where e
 ### 3. Aggregate data by category
 
 Considering the limitations of the features of the original data,  for all IMAGE_DT data of each company and each COHORT_MONTH, we sum import_Product_Trans_amt_t, export_Product_Trans_amt_t, import_Product_Trans_cnt_t, export_Product_Trans_cnt_t respectively and take them into account as new factors.
+
+<div align='center'>
+    <img src='pics/+1sum.png' width='650'/>
+</div>  
 
 ## Descriptive Statistics and Correlation Analysis
 
@@ -91,6 +100,13 @@ Considering the limitations of the features of the original data,  for all IMAGE
 
 In this part, we use logistic regression, SVM, decision tree, random forest and LSTM methods to build models and train.
 
+<div align='center'>
+    <img src='pics/+com1.png' width='650'/>
+</div>  
+
+<div align='center'>
+    <img src='pics/+com2.png' width='650'/>
+</div>  
 
 ## Limitation of our models and improvements
 
