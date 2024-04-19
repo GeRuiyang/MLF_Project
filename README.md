@@ -75,7 +75,7 @@ Considering the limitations of the features of the original data,  for all IMAGE
 * In addition, we have done correlation analysis and made heat maps.
 
 <div align='center'>
-    <img src='pics/2cor.png' width='650'/>
+    <img src='pics/2heat.png' width='650'/>
 </div>  
 
 ## Division of Training & Test Set and Feature Selection
