@@ -23,11 +23,13 @@ First, let's focus on the data. In the dataset, we are able to obtain the amount
     <img src='pics/0data.png' width='650'/>
 </div>  
 
+
 * Import & export transaction data
 
 <div align='center'>
     <img src='pics/1imp.png' width='850'/>
 </div>  
+
 
 * Target (credit event)
 
@@ -98,14 +100,20 @@ Considering the limitations of the features of the original data,  for all IMAGE
 
 ## Construction and training of different classification models
 
-In this part, we use logistic regression, SVM, decision tree, random forest and LSTM methods to build models and train.
+In this part, we use logistic regression, SVM, decision tree, random forest to build models and train.
 
 <div align='center'>
-    <img src='pics/+com1.png' width='650'/>
+    <img src='pics/+4com1.png' width='650'/>
 </div>  
 
 <div align='center'>
-    <img src='pics/+com2.png' width='650'/>
+    <img src='pics/+4com2.png' width='650'/>
+</div>  
+
+* We also trained the LSTM model and obtain the loss and confusion matrix.
+
+<div align='center'>
+    <img src='pics/4loss.png' width='650'/>
 </div>  
 
 ## Limitation of our models and improvements
